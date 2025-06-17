@@ -1,0 +1,58 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.parallax {
+  min-height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.parallax1 {
+  background-image: url('https://cdn.pixabay.com/photo/2020/03/20/05/27/jellyfish-4949516_1280.jpg');
+}
+
+.parallax2 {
+  background-image: url('https://mrwallpaper.com/images/hd/dream-big-and-achieve-aesthetic-perfection-3x2gplq5i42e5bow.jpg');
+}
+
+.center-message {
+  background: rgba(255, 255, 255, 0.423);
+  padding: 40px 60px;
+  border-radius: 18px;
+  text-align: center;
+  box-shadow: 0 4px 24px rgba(255, 255, 255, 0.18);
+}
+
+.content-block {
+  background: #111;
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-message {
+  color: #fff;
+  text-align: center;
+  padding: 40px 30px;
+  border-radius: 12px;
+  background: rgba(30,30,30,0.85);
+  box-shadow: 0 2px 12px rgba(0,0,0,0.18);
+}
+
+@media (max-width: 700px) {
+  .center-message, .content-message {
+    padding: 20px 10px;
+    font-size: 1em;
+  }
+}
